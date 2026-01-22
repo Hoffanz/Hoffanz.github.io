@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan Håkansson - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Jonathan Håkansson - Junior .NET developer</h1>
+      <nav class="navbar">
+        <ul class="navbar_list">
+          <li class="li_items"><a href="#about">About me</a></li>
+          <li class="li_items">
+            <a href="#skills">Skills and other professions</a>
+          </li>
+          <li class="li_items"><a href="#portfolio">Portfolio</a></li>
+          <li class="li_items"><a href="#references">References</a></li>
+          <li class="li_items">
+            <button id="cv-section">Download my resume!</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="aboutme">
+        <h2>Who am I?</h2>
+        <div class="aboutme-container">
+          <div class="aboutme-text">
+            <p>
+              Backend-focused junior developer with hands-on experience in C#,
+              ASP.NET Core, Web APIs, real-time communication, authentication,
+              and automated testing.
+            </p>
+          </div>
+          <div class="aboutme-pic">
+            <img
+              src="dist/images/me.jpg"
+              alt="Picture of me"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>My skills and knowledge</h2>
+        <p>
+          Technical skills and tools I have used in academic and practical
+          projects:
+        </p>
+        <ul>
+          <li>C# programming</li>
+          <li>ASP.NET Core</li>
+          <li>Web APIs</li>
+          <li>Real-time communication with SignalR</li>
+          <li>JWT Authentication and Authorization</li>
+          <li>Automated testing with xUnit and Moq</li>
+          <li>Database management with SQL Server and Entity Framework Core</li>
+          <li>Azure DevOps</li>
+          <li>Frontend basics with HTML, CSS and JavaScript</li>
+          <li>Git/Fork (branching, pull requests and merging)</li>
+        </ul>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h2>My portfolio</h2>
+        <p>
+          Down below you will find links to my GitHub, LinkedIn and some of my
+          projects.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/Hoffanz"
+            ><img src="/dist/images/github.png" alt="Github"
+          /></a>
+          <a href="https://www.linkedin.com/in/jonathan-håkansson-990200331"
+            ><img src="/dist/images/linkedin.png" alt="LinkedIn"
+          /></a>
+        </div>
+        <div class="projects">
+          <h3>Projects:</h3>
+          <ul>
+            <li>
+              <p>
+                Real-time chat application built with ASP.NET Core and SignalR,
+                including authentication and automated testing.
+              </p>
+              <a href="https://github.com/Hoffanz/ChatApp"
+                >ChatApp with SignalR</a
+              >
+            </li>
+            <li>
+              <p>
+                Microservice Invoice Service for a group assignment.
+                Backend-focused microservice handling invoice logic and
+                integration with external APIs
+              </p>
+              <a href="https://github.com/Hoffanz/InvoiceServiceVentixe"
+                >Microservice Invoice Service for a group assignment.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="references" class="references">
+        <h2>References</h2>
+        <p>References will be available upon request.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Jonathan Håkansson</p>
+    </footer>
+    <script src="src/resume.js"></script>
+  </body>
+</html>
